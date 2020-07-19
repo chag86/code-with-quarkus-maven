@@ -37,7 +37,7 @@ public class UsuarioResource {
     @Path("reativo")
     @Produces(MediaType.TEXT_PLAIN)
     public Multi<String> reatividade() {
-        return Multi.createFrom().items("Olá","items").onCompletion().continueWith("!");
+        return Multi.createFrom().items("Olá","items", "Pode ser o que for").onCompletion().continueWith("!");
     }
 
 

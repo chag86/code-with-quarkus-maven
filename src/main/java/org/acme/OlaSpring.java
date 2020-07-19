@@ -10,7 +10,7 @@ public class OlaSpring {
 
     @GetMapping
     public String olaSpring(){
-        return "Spring no Quarkus?";
+        return "Springboot no Quarkus?";
     }
     
 }
